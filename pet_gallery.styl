@@ -1,29 +1,91 @@
+//@import "icons/icons_facepug.styl"
+a
+	text-decoration: none
+
+	&:hover
+		color: red
+
 body
 	background: #F2F2F2
-
+	margin:0
 
 header
 	position: relative	
-	.logo 
-		background: #FF9933
+	
+	.titlebar
+		background: #4965A0
 		box-shadow: 10px 10px 20px rgba(black, 0.5)
 		text-align: center
-		margin: 100px
+		padding: 2px
+		height: 70px
+		//position: fixed
+		
+	#subtitle
+		    border-right: 2px solid white
+		    border-bottom: 2px solid white
+		    border-top: 2px solid white 
+			color: white
+			font-family: verdana,arial,helvetica,sans-serif
+			//font-size: 11px
+			float: left
+			width: 20px
 
 	figure
-		img
+		.logopic
 			border-radius: 50%
-			height: 90px
+			height: 60px
+			float: center
 			//left: 600px
-			margin: 5px
-			padding: 0
+			margin: 105px 10px
+			//padding: 0
 			position: absolute
 			top -100px
-			width: 90px
+			width: 60px
 
-.panel-principal
+	#sigin
+		background-color: #C0C0C0
+		float: right
+		position: relative
+		padding:0 50px 0 0
+		margin: -60px 20px 0 0
+			
+#searchbar
+	border: none
+	font-size: 0.9em
+	font-size: arial
+	margin:10px 100px 0 100px
+	padding-left: 170px
+	position: absolute
+
+#searchbar input
+	//background-image:url("icons/search_box_icon.png")
+    background-repeat:no-repeat
+    background-position:right center
+    margin:10px 100px 0 100px
+	position: absolute
+
+.left-panel
+	background: white
+	font-family: verdana,arial,helvetica,sans-serif
+	font-size: 11px
+	float: left
+	height: 1770px
+	position: relative
+	width: 20%
+	margin:1px -22px
+	overflow: hidden
+	padding:0 0 0 -5px
+
+	ul a
+		margin: 0 0 0 -30px
+		padding: 0
+	
+
+.main-panel
 	background: #C0C0C0
 	box-shadow: 4px 4px 4px 4px rgba(black, 0.5)
+	float: right
+	width: 80%
 	.galeria
 		figure
 			img
